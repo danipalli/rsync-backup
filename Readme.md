@@ -15,3 +15,5 @@ loss of data.
 
 **Note:** The script currently can only perform local backups.
 By changing the directory input validation the script is able to also perform remote backups.
+
+**Usage:** Just start the script. (It won't do anything until you confirmed twice)
