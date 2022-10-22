@@ -80,7 +80,7 @@ if [ "$dryRunOption" == "y" ]; then
 fi
 
 command+=" $sourceDirectory $destinationDirectory"
-displayedCommand="$command $sourceDirectory $destinationDirectory | tee $logfilePath"
+displayedCommand="$command | tee $logfilePath"
 
 printf "\n\n  Command:\n      %s\n" "$displayedCommand"
 printf "\n\t\tSource: "
